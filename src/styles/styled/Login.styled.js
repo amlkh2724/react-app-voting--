@@ -12,7 +12,8 @@ const Wrapper = styled.section`
     max-width: 400px;
     border-top: 5px solid var(--red-dark);
   }
-
+/* s
+ */
   h3 {
     text-align: center;
   }
