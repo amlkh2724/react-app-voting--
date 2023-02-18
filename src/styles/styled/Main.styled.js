@@ -1,22 +1,35 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  .dashboard {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .dashboard-page {
-    width: 90vw;
-    margin: 0 auto;
-    padding: 2rem 0;
-  }
-  @media (min-width: 992px) {
-    .dashboard {
-      grid-template-columns: auto;
-    }
-    .dashboard-page {
-      width: 90%;
-    }
-  }
+
+
+
+.vote {
+  margin-top: 1rem;
+width: 90vw;
+background-color: black;
+color: white;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+button[disabled='disabled'] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+li button[disabled='disabled'] {
+  background-color: #ccc;
+  color: #555;
+  cursor: default;
+}
+
 `;
 export default Wrapper;

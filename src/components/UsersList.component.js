@@ -1,5 +1,5 @@
 import User from './vote';
-import users from '../data/data';
+// import users from '../data/data';
 
 const UsersList = ({ users }) => {
   return (

@@ -1,10 +1,9 @@
 import { PAGES } from '../constants';
-// import users from '../data/data';
-// // import main-img from '../assets/images/main.svg';
+
 import Wrapper from '../styles/styled/Landing.styled';
 import { Logo } from '../components';
 
-const [, login, , ] = PAGES;
+const [, login, ,] = PAGES;
 
 const Landing = ({ setPage }) => {
   return (
